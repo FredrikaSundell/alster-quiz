@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.scss'
+import Button from './Button'
 
 function App() {
   return (
@@ -17,9 +18,13 @@ function App() {
         >
           Learn React
         </a>
+        <button className="btn" onClick={() => alert('I am globally styled')}>
+          I am button 1 - Press Me
+        </button>
+        <Button />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
