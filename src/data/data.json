@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "question": "What color is the sky?",
+    "answers": [
+      {
+        "answer": "Blue",
+        "isCorrect": true
+      },
+      {
+        "answer": "Green",
+        "isCorrect": false
+      },
+      {
+        "answer": "Red",
+        "isCorrect": false
+      },
+      {
+        "answer": "Yellow",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "How many legs does a spider have?",
+    "answers": [
+      {
+        "answer": "Eight",
+        "isCorrect": true
+      },
+      {
+        "answer": "Six",
+        "isCorrect": false
+      },
+      {
+        "answer": "Four",
+        "isCorrect": false
+      },
+      {
+        "answer": "Two",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is the color of an emerald?",
+    "answers": [
+      {
+        "answer": "Green",
+        "isCorrect": true
+      },
+      {
+        "answer": "Blue",
+        "isCorrect": false
+      },
+      {
+        "answer": "Red",
+        "isCorrect": false
+      },
+      {
+        "answer": "Yellow",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "How many planets are in our solar system?",
+    "answers": [
+      {
+        "answer": "Eight",
+        "isCorrect": true
+      },
+      {
+        "answer": "Nine",
+        "isCorrect": false
+      },
+      {
+        "answer": "Seven",
+        "isCorrect": false
+      },
+      {
+        "answer": "Six",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "How many pairs of wings do bees have?",
+    "answers": [
+      {
+        "answer": "Two",
+        "isCorrect": true
+      },
+      {
+        "answer": "Four",
+        "isCorrect": false
+      },
+      {
+        "answer": "Six",
+        "isCorrect": false
+      },
+      {
+        "answer": "Zero",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "When do leaves die?",
+    "answers": [
+      {
+        "answer": "In the fall",
+        "isCorrect": true
+      },
+      {
+        "answer": "In the winter",
+        "isCorrect": false
+      },
+      {
+        "answer": "In the spring",
+        "isCorrect": false
+      },
+      {
+        "answer": "In the summer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "How many days are in a year?",
+    "answers": [
+      {
+        "answer": "365",
+        "isCorrect": true
+      },
+      {
+        "answer": "375",
+        "isCorrect": false
+      },
+      {
+        "answer": "366",
+        "isCorrect": false
+      },
+      {
+        "answer": "376",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What color are Smurfs?",
+    "answers": [
+      {
+        "answer": "Blue",
+        "isCorrect": true
+      },
+      {
+        "answer": "Purple",
+        "isCorrect": false
+      },
+      {
+        "answer": "Green",
+        "isCorrect": false
+      },
+      {
+        "answer": "Brown",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "How many colors are in a rainbow?",
+    "answers": [
+      {
+        "answer": "Seven",
+        "isCorrect": true
+      },
+      {
+        "answer": "Eight",
+        "isCorrect": false
+      },
+      {
+        "answer": "Nine",
+        "isCorrect": false
+      },
+      {
+        "answer": "Six",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "How many strings does a violin have?",
+    "answers": [
+      {
+        "answer": "Four",
+        "isCorrect": true
+      },
+      {
+        "answer": "Five",
+        "isCorrect": false
+      },
+      {
+        "answer": "Six",
+        "isCorrect": false
+      },
+      {
+        "answer": "Three",
+        "isCorrect": false
+      }
+    ]
+  }
+]
