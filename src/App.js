@@ -1,10 +1,17 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.scss'
-import Button from './Button'
+import Start from './components/start/Start'
+import Quiz from './components/quiz/Quiz'
+import Results from './components/results/Results'
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <Routes>
+        <Route path="/" element={<Start />} />
+        <Route path="quiz" element={<Quiz />} />
+        <Route path="results" element={<Results />} />
+      </Routes>
     </div>
   )
 }
