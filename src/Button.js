@@ -7,7 +7,7 @@ const Button = () => {
         className={styles.btn}
         onClick={() => alert('I am styled with CSS Modules')}
       >
-        I am button 2 - Press Me
+        I am button - Press Me
       </button>
     </>
   )
