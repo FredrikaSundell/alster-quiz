@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<Start />} />
         <Route path="quiz" element={<Quiz />} />
         <Route path="results" element={<Results />} />
-        //redirect on the initial render in the client
+        {/* Navigate redirect on the initial render in the client * for No Match */}
         <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
     </div>
