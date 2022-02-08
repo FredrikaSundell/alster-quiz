@@ -3,15 +3,18 @@ import './App.scss'
 import Start from './components/start/Start'
 import Quiz from './components/quiz/Quiz'
 import Results from './components/results/Results'
+import useStore from './hooks/useStore'
 
 function App() {
+  const state = useStore()
+  console.log(state, 1111)
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Start />} />
         <Route path="quiz" element={<Quiz />} />
         <Route path="results" element={<Results />} />
-        //redirect on the initial render in the client
+        {/* Navigate redirect on the initial render in the client * for No Match */}
         <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
     </div>

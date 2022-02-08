@@ -1,12 +1,10 @@
-import Button from '../buttons/Button'
+import Form from '../form/Form'
 
 function Start() {
   return (
     <div>
-      <h1>Hej från Startsidan</h1>
-      <Button className="start-btn" to="/quiz">
-        Start
-      </Button>
+      <h1>VÄLKOMMEN TILL (CY)QUIZ</h1>
+      <Form />
     </div>
   )
 }
