@@ -1,9 +1,14 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function Form() {
   const [name, setName] = useState('')
 
-  const handleSubmit = () => {}
+  const navigate = useNavigate()
+  const handleSubmit = useCallback(
+    () => navigate('/quiz', { replace: true }),
+    [navigate]
+  )
 
   return (
     <>
