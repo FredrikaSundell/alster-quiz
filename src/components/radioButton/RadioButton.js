@@ -1,10 +1,16 @@
-// const RadioButton = ({ label, value, onChange }) => {
-//   return (
-//     <label>
-//       <input type="radio" checked={value} onChange={onChange} />
-//       {label}
-//     </label>
-//   )
-// }
+const RadioButton = ({ label, value, onChange, name, checked }) => {
+  return (
+    <label>
+      <input
+        type="radio"
+        name={name}
+        value={value}
+        checked={checked}
+        onChange={onChange}
+      />
+      {label}
+    </label>
+  )
+}
 
-// export default RadioButton
+export default RadioButton
