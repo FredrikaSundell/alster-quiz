@@ -7,7 +7,6 @@ import useStore from './hooks/useStore'
 
 function App() {
   const state = useStore()
-  // console.log(state, 1111)
   return (
     <div className="App">
       <Routes>

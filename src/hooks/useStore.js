@@ -29,7 +29,6 @@ const useStore = create((set, get) => ({
         }),
       }
     }),
-  //
   setNextQuestion: () =>
     set((state) => {
       //hitta nuvarande fråge Index
