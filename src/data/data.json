@@ -2,21 +2,21 @@
   {
     "id": 1,
     "question": "What color is the sky?",
-    "answers": [
+    "options": [
       {
-        "answer": "Blue",
+        "value": "Blue",
         "isCorrect": true
       },
       {
-        "answer": "Green",
+        "value": "Green",
         "isCorrect": false
       },
       {
-        "answer": "Red",
+        "value": "Red",
         "isCorrect": false
       },
       {
-        "answer": "Yellow",
+        "value": "Yellow",
         "isCorrect": false
       }
     ]
@@ -24,21 +24,21 @@
   {
     "id": 2,
     "question": "How many legs does a spider have?",
-    "answers": [
+    "options": [
       {
-        "answer": "Eight",
+        "value": "Eight",
         "isCorrect": true
       },
       {
-        "answer": "Six",
+        "value": "Six",
         "isCorrect": false
       },
       {
-        "answer": "Four",
+        "value": "Four",
         "isCorrect": false
       },
       {
-        "answer": "Two",
+        "value": "Two",
         "isCorrect": false
       }
     ]
@@ -46,21 +46,21 @@
   {
     "id": 3,
     "question": "What is the color of an emerald?",
-    "answers": [
+    "options": [
       {
-        "answer": "Green",
+        "value": "Green",
         "isCorrect": true
       },
       {
-        "answer": "Blue",
+        "value": "Blue",
         "isCorrect": false
       },
       {
-        "answer": "Red",
+        "value": "Red",
         "isCorrect": false
       },
       {
-        "answer": "Yellow",
+        "value": "Yellow",
         "isCorrect": false
       }
     ]
@@ -68,21 +68,21 @@
   {
     "id": 4,
     "question": "How many planets are in our solar system?",
-    "answers": [
+    "options": [
       {
-        "answer": "Eight",
+        "value": "Eight",
         "isCorrect": true
       },
       {
-        "answer": "Nine",
+        "value": "Nine",
         "isCorrect": false
       },
       {
-        "answer": "Seven",
+        "value": "Seven",
         "isCorrect": false
       },
       {
-        "answer": "Six",
+        "value": "Six",
         "isCorrect": false
       }
     ]
@@ -90,21 +90,21 @@
   {
     "id": 5,
     "question": "How many pairs of wings do bees have?",
-    "answers": [
+    "options": [
       {
-        "answer": "Two",
+        "value": "Two",
         "isCorrect": true
       },
       {
-        "answer": "Four",
+        "value": "Four",
         "isCorrect": false
       },
       {
-        "answer": "Six",
+        "value": "Six",
         "isCorrect": false
       },
       {
-        "answer": "Zero",
+        "value": "Zero",
         "isCorrect": false
       }
     ]
@@ -112,21 +112,21 @@
   {
     "id": 6,
     "question": "When do leaves die?",
-    "answers": [
+    "options": [
       {
-        "answer": "In the fall",
+        "value": "In the fall",
         "isCorrect": true
       },
       {
-        "answer": "In the winter",
+        "value": "In the winter",
         "isCorrect": false
       },
       {
-        "answer": "In the spring",
+        "value": "In the spring",
         "isCorrect": false
       },
       {
-        "answer": "In the summer",
+        "value": "In the summer",
         "isCorrect": false
       }
     ]
@@ -134,21 +134,21 @@
   {
     "id": 7,
     "question": "How many days are in a year?",
-    "answers": [
+    "options": [
       {
-        "answer": "365",
+        "value": "365",
         "isCorrect": true
       },
       {
-        "answer": "375",
+        "value": "375",
         "isCorrect": false
       },
       {
-        "answer": "366",
+        "value": "366",
         "isCorrect": false
       },
       {
-        "answer": "376",
+        "value": "376",
         "isCorrect": false
       }
     ]
@@ -156,21 +156,21 @@
   {
     "id": 8,
     "question": "What color are Smurfs?",
-    "answers": [
+    "options": [
       {
-        "answer": "Blue",
+        "value": "Blue",
         "isCorrect": true
       },
       {
-        "answer": "Purple",
+        "value": "Purple",
         "isCorrect": false
       },
       {
-        "answer": "Green",
+        "value": "Green",
         "isCorrect": false
       },
       {
-        "answer": "Brown",
+        "value": "Brown",
         "isCorrect": false
       }
     ]
@@ -178,21 +178,21 @@
   {
     "id": 9,
     "question": "How many colors are in a rainbow?",
-    "answers": [
+    "options": [
       {
-        "answer": "Seven",
+        "value": "Seven",
         "isCorrect": true
       },
       {
-        "answer": "Eight",
+        "value": "Eight",
         "isCorrect": false
       },
       {
-        "answer": "Nine",
+        "value": "Nine",
         "isCorrect": false
       },
       {
-        "answer": "Six",
+        "value": "Six",
         "isCorrect": false
       }
     ]
@@ -200,21 +200,21 @@
   {
     "id": 10,
     "question": "How many strings does a violin have?",
-    "answers": [
+    "options": [
       {
-        "answer": "Four",
+        "value": "Four",
         "isCorrect": true
       },
       {
-        "answer": "Five",
+        "value": "Five",
         "isCorrect": false
       },
       {
-        "answer": "Six",
+        "value": "Six",
         "isCorrect": false
       },
       {
-        "answer": "Three",
+        "value": "Three",
         "isCorrect": false
       }
     ]
