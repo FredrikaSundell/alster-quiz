@@ -48,6 +48,21 @@ const useStore = create((set, get) => ({
             state.currentQuestionId,
       }
     }),
+  setPreviousQuestion: () =>
+    set((state) => {
+      const currentIndex = state.questions.findIndex(
+        (q) => q.id === state.currentQuestionId
+      )
+      console.log(currentIndex)
+      //ta nuvarande index -1 för föregående fråga
+      const nextQuestion = state.questions[currentIndex - 1]
+      return {
+        ...state,
+        currentQuestionId: nextQuestion
+          ? nextQuestion.id
+          : state.currentQuestionId,
+      }
+    }),
 }))
 
 export default useStore
