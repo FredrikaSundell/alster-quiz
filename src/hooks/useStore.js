@@ -35,7 +35,6 @@ const useStore = create((set, get) => ({
       const currentIndex = state.questions.findIndex(
         (q) => q.id === state.currentQuestionId
       )
-      console.log(currentIndex)
       //ta nuvarande index +1 för nästa fråga
       const nextQuestion = state.questions[currentIndex + 1]
       return {
@@ -53,7 +52,6 @@ const useStore = create((set, get) => ({
       const currentIndex = state.questions.findIndex(
         (q) => q.id === state.currentQuestionId
       )
-      console.log(currentIndex)
       //ta nuvarande index -1 för föregående fråga
       const nextQuestion = state.questions[currentIndex - 1]
       return {

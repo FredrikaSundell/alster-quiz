@@ -17,6 +17,10 @@ function Quiz() {
       state.questions[state.questions.length - 1].id === currentQuestion.id
   )
 
+  const isFirstQuestion = useStore(
+    (state) => state.questions[0].id === currentQuestion.id
+  )
+
   return (
     <div>
       <h1>{currentQuestion.question}</h1>
@@ -34,7 +38,12 @@ function Quiz() {
           )
         })}
       </div>
-      <button onClick={setPreviousQuestion}>Föregående fråga</button>
+      {!isFirstQuestion ? (
+        <button onClick={setPreviousQuestion}>Föregående fråga</button>
+      ) : (
+        <p></p>
+      )}
+
       {/* inte sista frågan, visa "nästa-fråga-knapp", annars "resultat-knapp" */}
       {!isLastQuestion ? (
         <button onClick={setNextQuestion}>Nästa fråga</button>
