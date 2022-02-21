@@ -4,6 +4,7 @@ function Results() {
   const userName = useStore((state) => state.userName)
   const questions = useStore((state) => state.questions)
 
+  //acc 0, lägger till current  om det är samma som correctAnswer
   const result = questions.reduce((acc, current) => {
     const correctAnswer = current.options.find((opt) => opt.isCorrect).value
     if (current.answer === correctAnswer) {
